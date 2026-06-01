@@ -45,6 +45,9 @@ int main ()
     if (infile.is_open())
     {
         //perulangan untuk menampilkan setiap baris
-        
+        while (getline(infile, baris))
+        {
+            cout << baris << endl;
+        }
     }
 }
