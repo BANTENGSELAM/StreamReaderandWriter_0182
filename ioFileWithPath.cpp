@@ -11,4 +11,7 @@ int main ()
     // membuat input untuk menangkap nama file
     cout << "Masukkan Nama file : ";
     cin >> NamaFile;
+
+    // membuat file dalam mode menulis 
+    ofstream outfile;
 }
